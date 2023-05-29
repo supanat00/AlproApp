@@ -37,10 +37,10 @@ const TextsInput = () => {
         const response = await fetch(
           
           // localhost
-          // 'http://localhost:8080/api/v1/dalle'
+          'http://localhost:8080/api/v1/dalle'
           
           //render
-          'https://backapi-ivar.onrender.com/api/v1/dalle'
+          // 'https://backapi-ivar.onrender.com/api/v1/dalle'
           , {
           method: 'POST',
           headers: {
@@ -93,10 +93,10 @@ const TextsInput = () => {
           const response = await fetch(
             
             //localhost
-            // 'http://localhost:8080/api/v1/trantexts/translate'
+            'http://localhost:8080/api/v1/trantexts/translate'
             
             //render
-            'https://backapi-ivar.onrender.com/api/v1/trantexts/translate'
+            // 'https://backapi-ivar.onrender.com/api/v1/trantexts/translate'
             
             
             , {
@@ -136,10 +136,10 @@ const TextsInput = () => {
             const response = await fetch(
               
               //localhost
-              // 'http://localhost:8080/api/v1/dalle'
+              'http://localhost:8080/api/v1/dalle'
               
               //render
-              'https://backapi-ivar.onrender.com/api/v1/dalle'
+              // 'https://backapi-ivar.onrender.com/api/v1/dalle'
               
               , {
               method: 'POST',
@@ -182,10 +182,10 @@ const TextsInput = () => {
       try {
         const response = await fetch(
           //localhost
-          // 'http://localhost:8080/api/v1/post'
+          'http://localhost:8080/api/v1/post'
           
           //reander
-          'https://backapi-ivar.onrender.com/api/v1/post'
+          // 'https://backapi-ivar.onrender.com/api/v1/post'
           , {
           method: 'POST',
           headers: {

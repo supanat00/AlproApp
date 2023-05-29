@@ -31,10 +31,10 @@ const TranTexts = () => {
   
         const response = await fetch(
           //localhost
-          // 'http://localhost:8080/api/v1/trantexts/translate'
+          'http://localhost:8080/api/v1/trantexts/translate'
           
           //render
-          'https://backapi-ivar.onrender.com/api/v1/trantexts/translate'
+          // 'https://backapi-ivar.onrender.com/api/v1/trantexts/translate'
 
           , {
           method: 'POST',
@@ -70,10 +70,10 @@ const TranTexts = () => {
         const response = await fetch(
           
           //local
-          // 'http://localhost:8080/api/v1/dalle'
+          'http://localhost:8080/api/v1/dalle'
           
           //render
-          'https://backapi-ivar.onrender.com/api/v1/dalle'
+          // 'https://backapi-ivar.onrender.com/api/v1/dalle'
           , {
           method: 'POST',
           headers: {
@@ -103,9 +103,9 @@ const TranTexts = () => {
   
         const response = await fetch(
           //local
-          // 'http://localhost:8080/api/v1/trantexts/translate'
+          'http://localhost:8080/api/v1/trantexts/translate'
           //render
-          'https://backapi-ivar.onrender.com/api/v1/trantexts/translate'
+          // 'https://backapi-ivar.onrender.com/api/v1/trantexts/translate'
           , {
           method: 'POST',
           headers: {
@@ -122,9 +122,9 @@ const TranTexts = () => {
               setGeneratingImg(true);
               const imageResponse = await fetch(
                 //local
-                // 'http://localhost:8080/api/v1/dalle'
+                'http://localhost:8080/api/v1/dalle'
                 //render
-                'https://backapi-ivar.onrender.com/api/v1/dalle'
+                // 'https://backapi-ivar.onrender.com/api/v1/dalle'
                 , {
                 method: 'POST',
                 headers: {
@@ -178,9 +178,9 @@ const TranTexts = () => {
       try {
         const response = await fetch(
           //local
-          // 'http://localhost:8080/api/v1/post'
+          'http://localhost:8080/api/v1/post'
           //render
-          'https://backapi-ivar.onrender.com/api/v1/post'
+          // 'https://backapi-ivar.onrender.com/api/v1/post'
           , {
           method: 'POST',
           headers: {
